@@ -30,6 +30,7 @@ const styles = StyleSheet.create({
         borderColor: 'purple',
         borderWidth: 1,
         borderRadius: 10,
+
     },
     textInput: {
         paddingVertical: 8,
@@ -48,5 +49,11 @@ const styles = StyleSheet.create({
     buttonContainer: {
         flex: 1,
         marginHorizontal: 8,
+         // shadow box in Android
+        // elevation: 2,
+        // shadow box in IOS
+        shadowColor: 'black',
+        shadowOffset: {width: 0,height: 2},
+        shadowOpacity: 0.25,
     },
 });
